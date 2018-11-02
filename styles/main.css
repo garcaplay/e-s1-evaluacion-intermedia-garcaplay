@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    background-color: #3CDBC0;
+    display: flex;
+    flex-flow: column;
+}
+
+/* cabecera */
+.header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+/* logo */
+.logo {
+    background-image: url("../images/logo_adalab_155x61.png");
+    height: 61px;
+    width: 155px;
+    align-self: center;
+}
+
+/* menu */
+.list {
+
+    height: 16px;
+    margin: 10px 0px 13px 0px;
+    transform: translate(-20px);
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+.list-item {    
+    margin: 0px 10px 0px 10px;
+    font-size: 10px;
+}
+.list a{
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+/* cuerpo principal */
+
+.main {
+    height: 86vh;
+    margin-top: 110px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%; */
+    
+}
+
+/* pantalla tablet y desktop */
+
+@media all and (min-width:768px) {
+    .header {
+        display: flex;
+        flex-flow: row ;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px 20px 10px;
+    }
+    .list {
+        margin: 0px;
+    }
+
+    .list-item {    
+        font-size: 16px;
+    }
+    
+    .main {
+        font-size: 40px; 
+    }
+}
