@@ -77,17 +77,21 @@ body {
         flex-flow: row ;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 30px 20px 10px;
+        padding: 20px 0px 20px 0px;
     }
     .logo {
         margin: 20px 0px 20px 30px;
     }
     .list {
         margin: 0px;
+        margin-right: 30px;
     }
 
     .list-item {    
         font-size: 16px;
+    }
+    .btn-contacto {
+        
     }
     
     .main {
