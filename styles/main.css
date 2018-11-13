@@ -69,7 +69,16 @@ body {
     justify-content: center;
 }
 
-
+.footer {
+    background-color: #FFFFFF;
+    color: #585859;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
 /* pantalla tablet y desktop */
 
@@ -95,5 +104,10 @@ body {
     
     .main {
         font-size: 40px; 
+    }
+
+    .footer {
+        padding: 30px;
+        text-align: left;
     }
 }
